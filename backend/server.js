@@ -1,3 +1,4 @@
+const dotenv = require('dotenv');
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const sessions = require("express-session");
@@ -9,6 +10,7 @@ const router = require("./routes");
 const db = require("./config/db");
 const { User } = require("./models");
 
+dotenv.config();
 //LOGGING MIDDLEWARE
 app.use(volleyball);
 

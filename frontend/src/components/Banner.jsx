@@ -5,17 +5,19 @@ import { Text, Box, Flex, useColorModeValue, Image } from "@chakra-ui/react";
 const Component = () => {
   const slides = [
     {
-      img:
-        "https://ichef.bbci.co.uk/news/640/cpsprodpb/BF0D/production/_106090984_2e39b218-c369-452e-b5be-d2476f9d8728.jpg",
+    img:
+    "https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
       img:
-      "https://resizer.glanacion.com/resizer/OI4WH75XKosDWuXn2qU-VzZSYXU=/879x586/smart/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/3K2CEKCGX5BP3LFSFJ5GVVR6FM.jpg",
+        "https://images.pexels.com/photos/1634689/pexels-photo-1634689.jpeg?auto=compress&cs=tinysrgb&dpr=750&w=500",
     },
     {
       img:
-        "https://live.mrf.io/statics/i/ps/cdn.statically.io/img/maduradas.com/f=auto/wp-content/uploads/2021/12/spiderman-way-home-fecha-estreno.jpg?width=1200&enable=upscale",
-    }
+      "https://images.pexels.com/photos/6447217/pexels-photo-6447217.jpeg?auto=compress&cs=tinysrgb&dpr=750&w=500",
+    },
+    
+    
   ];
   const [currentSlide, setCurrentSlide] = useState(0);
 
